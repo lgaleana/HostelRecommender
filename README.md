@@ -11,3 +11,5 @@ Eeach attribute has a rating, computed by making an NLP analysis over a bunch of
 Another type of classification is possible, by providing a list of attributes and meassuring the hostels where those attributes are the most important. The attribute rating is what is effectively used too.
 
 A penalization based on the number of reviews of each hostel is also applied.
+
+Both methods of classification will return a list of Hostels where the first ones are the most similar to another Hostel or a list of attributes.
