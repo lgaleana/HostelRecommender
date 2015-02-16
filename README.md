@@ -2,9 +2,9 @@
 
 It uses Euclidean distance to compare hostel vectors:
 
-d = (x1 - x2)² + ... + (xn - xn)²
+d = (x1 - y2)² + ... + (xn - yn)²
 
-where d is the Euclidean distance and xi is an element of the vector. No square root is applied, to emphasize the similarities and differences between hostels. Hostel vectors are represented by attributes, such as "party", "family", etc.
+where d is the Euclidean distance and xi and yi are elements of the vector. No square root is applied, to emphasize the similarities and differences between hostels. Hostel vectors are represented by attributes, such as "party", "family", etc.
 
 Eeach attribute has a rating, computed by making an NLP analysis over a bunch of reviews of the hostel. The rating is what is effectively used to get the Euclidean distance.
 
